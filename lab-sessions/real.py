@@ -26,12 +26,13 @@ height = float(input("Enter your height (cm): "))
 age = int(input("Enter your age: "))
 
 bmr_men, bmr_women, bars_men, bars_women = calculate_bmr(weight, height, age)
-print(f"\nBMR (Men): {bmr_men}, BMR (Women): {bmr_women}")
+print(f"BMR (Men): {bmr_men}, BMR (Women): {bmr_women}")
 print(f"Chocolate Bars (Men): {bars_men}, Chocolate Bars (Women): {bars_women}")
 
-temp_celsius = float(input("\nEnter temperature in Celsius: "))
+temp_celsius = float(input("Enter temperature in Celsius: "))
 print(f"{temp_celsius}°C in Fahrenheit: {convert_celsius_to_fahrenheit(temp_celsius)}°F")
 
-total_seconds = int(input("\nEnter time in seconds: "))
+total_seconds = int(input("Enter time in seconds: "))
 hours, minutes, seconds = convert_seconds(total_seconds)
 print(f"{total_seconds} seconds -> {hours} hours, {minutes} minutes, {seconds} seconds")
+
